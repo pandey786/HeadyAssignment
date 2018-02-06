@@ -7,13 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		353E8A152029561F0088A3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A142029561F0088A3F0 /* AppDelegate.swift */; };
-		353E8A172029561F0088A3F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A162029561F0088A3F0 /* ViewController.swift */; };
-		353E8A1A2029561F0088A3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E8A182029561F0088A3F0 /* Main.storyboard */; };
-		353E8A1C2029561F0088A3F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353E8A1B2029561F0088A3F0 /* Assets.xcassets */; };
-		353E8A1F2029561F0088A3F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E8A1D2029561F0088A3F0 /* LaunchScreen.storyboard */; };
+		1F3FE01CB7078965B148A46C /* Pods_HeadyAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34EF1BE163D87108FBF41D96 /* Pods_HeadyAssignmentTests.framework */; };
 		353E8A2A2029561F0088A3F0 /* HeadyAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A292029561F0088A3F0 /* HeadyAssignmentTests.swift */; };
 		353E8A352029561F0088A3F0 /* HeadyAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A342029561F0088A3F0 /* HeadyAssignmentUITests.swift */; };
+		353E8A8420295ACA0088A3F0 /* ActigageTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A4320295AC90088A3F0 /* ActigageTest.xcdatamodeld */; };
+		353E8A8520295ACA0088A3F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353E8A4520295AC90088A3F0 /* Assets.xcassets */; };
+		353E8A8620295ACA0088A3F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E8A4620295AC90088A3F0 /* LaunchScreen.storyboard */; };
+		353E8A8720295ACA0088A3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E8A4820295AC90088A3F0 /* Main.storyboard */; };
+		353E8A8A20295ACA0088A3F0 /* ViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A4E20295ACA0088A3F0 /* ViewProtocols.swift */; };
+		353E8A9B20295ACA0088A3F0 /* RootContracter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A6E20295ACA0088A3F0 /* RootContracter.swift */; };
+		353E8A9C20295ACA0088A3F0 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A7020295ACA0088A3F0 /* RootRouter.swift */; };
+		353E8AA020295ACA0088A3F0 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A7620295ACA0088A3F0 /* Enums.swift */; };
+		353E8AA120295ACA0088A3F0 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A7820295ACA0088A3F0 /* Endpoints.swift */; };
+		353E8AA220295ACA0088A3F0 /* MovieSearchAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A7920295ACA0088A3F0 /* MovieSearchAPIService.swift */; };
+		353E8AA820295ACA0088A3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8A8120295ACA0088A3F0 /* AppDelegate.swift */; };
+		353E8B37202963B90088A3F0 /* CALayer+KafkaLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B02202963B80088A3F0 /* CALayer+KafkaLayout.m */; };
+		353E8B38202963B90088A3F0 /* NSObject+KafkaAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B04202963B80088A3F0 /* NSObject+KafkaAnimation.m */; };
+		353E8B39202963B90088A3F0 /* UIScrollView+KafkaLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B06202963B80088A3F0 /* UIScrollView+KafkaLayout.m */; };
+		353E8B3A202963B90088A3F0 /* UIView+KafkaLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B08202963B80088A3F0 /* UIView+KafkaLayout.m */; };
+		353E8B3B202963B90088A3F0 /* UIScrollView+KafkaConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B0B202963B80088A3F0 /* UIScrollView+KafkaConfiguration.m */; };
+		353E8B3C202963B90088A3F0 /* KafkaFootRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B0E202963B80088A3F0 /* KafkaFootRefreshControl.m */; };
+		353E8B3D202963B90088A3F0 /* KafkaHeadRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B10202963B80088A3F0 /* KafkaHeadRefreshControl.m */; };
+		353E8B3E202963B90088A3F0 /* KafkaRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B12202963B80088A3F0 /* KafkaRefreshControl.m */; };
+		353E8B3F202963B90088A3F0 /* UIScrollView+KafkaRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B15202963B80088A3F0 /* UIScrollView+KafkaRefreshControl.m */; };
+		353E8B40202963B90088A3F0 /* KafkaRefreshDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B18202963B80088A3F0 /* KafkaRefreshDefaults.m */; };
+		353E8B41202963B90088A3F0 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 353E8B1B202963B80088A3F0 /* Image.bundle */; };
+		353E8B42202963B90088A3F0 /* KafkaArrowFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B21202963B80088A3F0 /* KafkaArrowFooter.m */; };
+		353E8B43202963B90088A3F0 /* KafkaNativeFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B23202963B80088A3F0 /* KafkaNativeFooter.m */; };
+		353E8B44202963B90088A3F0 /* KafkaReplicatorFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B25202963B80088A3F0 /* KafkaReplicatorFooter.m */; };
+		353E8B45202963B90088A3F0 /* KafkaRingIndicatorFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B27202963B80088A3F0 /* KafkaRingIndicatorFooter.m */; };
+		353E8B46202963B90088A3F0 /* KafkaArrowHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B2A202963B80088A3F0 /* KafkaArrowHeader.m */; };
+		353E8B47202963B90088A3F0 /* KafkaNativeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B2C202963B80088A3F0 /* KafkaNativeHeader.m */; };
+		353E8B48202963B90088A3F0 /* KafkaReplicatorHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B2E202963B80088A3F0 /* KafkaReplicatorHeader.m */; };
+		353E8B49202963B90088A3F0 /* KafkaRingIndicatorHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B30202963B80088A3F0 /* KafkaRingIndicatorHeader.m */; };
+		353E8B4A202963B90088A3F0 /* KafkaArcLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B34202963B80088A3F0 /* KafkaArcLayer.m */; };
+		353E8B4B202963B90088A3F0 /* KafkaReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B36202963B80088A3F0 /* KafkaReplicatorLayer.m */; };
+		353E8B54202965F40088A3F0 /* PopOverHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B4F202965F40088A3F0 /* PopOverHeaderTableViewCell.swift */; };
+		353E8B55202965F40088A3F0 /* PopOverHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353E8B50202965F40088A3F0 /* PopOverHeaderTableViewCell.xib */; };
+		353E8B56202965F40088A3F0 /* PopOverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B51202965F40088A3F0 /* PopOverTableViewCell.swift */; };
+		353E8B57202965F40088A3F0 /* PopOverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353E8B52202965F40088A3F0 /* PopOverTableViewCell.xib */; };
+		353E8B58202965F40088A3F0 /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B53202965F40088A3F0 /* PopOverViewController.swift */; };
+		353E8B5A202966070088A3F0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B59202966060088A3F0 /* Extensions.swift */; };
+		353E8B622029668B0088A3F0 /* MovieSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B612029668B0088A3F0 /* MovieSearchViewController.swift */; };
+		353E8B64202966970088A3F0 /* MovieSearchStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E8B63202966970088A3F0 /* MovieSearchStoryboard.storyboard */; };
+		353E8B6C202967930088A3F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B6A202967920088A3F0 /* Constants.swift */; };
+		353E8B6D202967930088A3F0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B6B202967920088A3F0 /* Utils.swift */; };
+		353E8B6F202968980088A3F0 /* MovieSearchContractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B6E202968980088A3F0 /* MovieSearchContractor.swift */; };
+		353E8B71202969430088A3F0 /* MovieSearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B70202969430088A3F0 /* MovieSearchResultModel.swift */; };
+		353E8B7620296AE20088A3F0 /* MovieSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B7520296AE20088A3F0 /* MovieSearchInteractor.swift */; };
+		353E8B7820296BF10088A3F0 /* MovieSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B7720296BF10088A3F0 /* MovieSearchPresenter.swift */; };
+		353E8B7A20296C9D0088A3F0 /* MovieSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B7920296C9D0088A3F0 /* MovieSearchRouter.swift */; };
+		353E8B7C20296EC90088A3F0 /* IndicatableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B7B20296EC90088A3F0 /* IndicatableViewExtension.swift */; };
+		353E8B7E202974CE0088A3F0 /* PopOverStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E8B7D202974CE0088A3F0 /* PopOverStoryboard.storyboard */; };
+		353E8B81202976350088A3F0 /* MovieSearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B7F202976350088A3F0 /* MovieSearchCollectionViewCell.swift */; };
+		353E8B82202976350088A3F0 /* MovieSearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353E8B80202976350088A3F0 /* MovieSearchCollectionViewCell.xib */; };
+		353E8B8E2029853A0088A3F0 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B8D2029853A0088A3F0 /* MovieDetailViewController.swift */; };
+		353E8B90202985440088A3F0 /* MovieDetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E8B8F202985440088A3F0 /* MovieDetailStoryboard.storyboard */; };
+		353E8B92202985520088A3F0 /* MovieDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B91202985520088A3F0 /* MovieDetailRouter.swift */; };
+		353E8B95202989090088A3F0 /* SlantedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B94202989090088A3F0 /* SlantedView.swift */; };
+		353E8B9B2029A5FE0088A3F0 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B9A2029A5FD0088A3F0 /* ShadowView.swift */; };
+		5702E153FEA7066EB2E9378D /* Pods_HeadyAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839ECA9CF3D07564BC306F6D /* Pods_HeadyAssignmentUITests.framework */; };
+		C42B2EC01AACF2905E77FB77 /* Pods_HeadyAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91C56383B22327C649EC7DD /* Pods_HeadyAssignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +88,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CCE845B3CDCC1C3429DE686 /* Pods-HeadyAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyAssignmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeadyAssignmentTests/Pods-HeadyAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		139D1C90FC0C86AC2F87C9DA /* Pods-HeadyAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeadyAssignment/Pods-HeadyAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		29E58DCDAD698B9E53B0E792 /* Pods-HeadyAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeadyAssignment/Pods-HeadyAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		34EF1BE163D87108FBF41D96 /* Pods_HeadyAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadyAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		353E8A112029561F0088A3F0 /* HeadyAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadyAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		353E8A142029561F0088A3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		353E8A162029561F0088A3F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		353E8A192029561F0088A3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		353E8A1B2029561F0088A3F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		353E8A1E2029561F0088A3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		353E8A202029561F0088A3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		353E8A252029561F0088A3F0 /* HeadyAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadyAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		353E8A292029561F0088A3F0 /* HeadyAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadyAssignmentTests.swift; sourceTree = "<group>"; };
@@ -47,6 +100,92 @@
 		353E8A302029561F0088A3F0 /* HeadyAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadyAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		353E8A342029561F0088A3F0 /* HeadyAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadyAssignmentUITests.swift; sourceTree = "<group>"; };
 		353E8A362029561F0088A3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353E8A4420295AC90088A3F0 /* ActigageTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ActigageTest.xcdatamodel; sourceTree = "<group>"; };
+		353E8A4520295AC90088A3F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353E8A4720295AC90088A3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		353E8A4920295AC90088A3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		353E8A4E20295ACA0088A3F0 /* ViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProtocols.swift; sourceTree = "<group>"; };
+		353E8A6E20295ACA0088A3F0 /* RootContracter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootContracter.swift; sourceTree = "<group>"; };
+		353E8A7020295ACA0088A3F0 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		353E8A7620295ACA0088A3F0 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		353E8A7820295ACA0088A3F0 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		353E8A7920295ACA0088A3F0 /* MovieSearchAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSearchAPIService.swift; sourceTree = "<group>"; };
+		353E8A8120295ACA0088A3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		353E8AFB202963AC0088A3F0 /* HeadyAssignment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeadyAssignment-Bridging-Header.h"; sourceTree = "<group>"; };
+		353E8B01202963B80088A3F0 /* CALayer+KafkaLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+KafkaLayout.h"; sourceTree = "<group>"; };
+		353E8B02202963B80088A3F0 /* CALayer+KafkaLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+KafkaLayout.m"; sourceTree = "<group>"; };
+		353E8B03202963B80088A3F0 /* NSObject+KafkaAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KafkaAnimation.h"; sourceTree = "<group>"; };
+		353E8B04202963B80088A3F0 /* NSObject+KafkaAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KafkaAnimation.m"; sourceTree = "<group>"; };
+		353E8B05202963B80088A3F0 /* UIScrollView+KafkaLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KafkaLayout.h"; sourceTree = "<group>"; };
+		353E8B06202963B80088A3F0 /* UIScrollView+KafkaLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KafkaLayout.m"; sourceTree = "<group>"; };
+		353E8B07202963B80088A3F0 /* UIView+KafkaLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KafkaLayout.h"; sourceTree = "<group>"; };
+		353E8B08202963B80088A3F0 /* UIView+KafkaLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KafkaLayout.m"; sourceTree = "<group>"; };
+		353E8B0A202963B80088A3F0 /* UIScrollView+KafkaConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KafkaConfiguration.h"; sourceTree = "<group>"; };
+		353E8B0B202963B80088A3F0 /* UIScrollView+KafkaConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KafkaConfiguration.m"; sourceTree = "<group>"; };
+		353E8B0D202963B80088A3F0 /* KafkaFootRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaFootRefreshControl.h; sourceTree = "<group>"; };
+		353E8B0E202963B80088A3F0 /* KafkaFootRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaFootRefreshControl.m; sourceTree = "<group>"; };
+		353E8B0F202963B80088A3F0 /* KafkaHeadRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaHeadRefreshControl.h; sourceTree = "<group>"; };
+		353E8B10202963B80088A3F0 /* KafkaHeadRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaHeadRefreshControl.m; sourceTree = "<group>"; };
+		353E8B11202963B80088A3F0 /* KafkaRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaRefreshControl.h; sourceTree = "<group>"; };
+		353E8B12202963B80088A3F0 /* KafkaRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaRefreshControl.m; sourceTree = "<group>"; };
+		353E8B13202963B80088A3F0 /* KafkaRefreshProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaRefreshProtocol.h; sourceTree = "<group>"; };
+		353E8B14202963B80088A3F0 /* UIScrollView+KafkaRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KafkaRefreshControl.h"; sourceTree = "<group>"; };
+		353E8B15202963B80088A3F0 /* UIScrollView+KafkaRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KafkaRefreshControl.m"; sourceTree = "<group>"; };
+		353E8B17202963B80088A3F0 /* KafkaRefreshDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaRefreshDefaults.h; sourceTree = "<group>"; };
+		353E8B18202963B80088A3F0 /* KafkaRefreshDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaRefreshDefaults.m; sourceTree = "<group>"; };
+		353E8B19202963B80088A3F0 /* KafkaRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaRefresh.h; sourceTree = "<group>"; };
+		353E8B1B202963B80088A3F0 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
+		353E8B1D202963B80088A3F0 /* KafkaRefreshStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaRefreshStyle.h; sourceTree = "<group>"; };
+		353E8B20202963B80088A3F0 /* KafkaArrowFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaArrowFooter.h; sourceTree = "<group>"; };
+		353E8B21202963B80088A3F0 /* KafkaArrowFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaArrowFooter.m; sourceTree = "<group>"; };
+		353E8B22202963B80088A3F0 /* KafkaNativeFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaNativeFooter.h; sourceTree = "<group>"; };
+		353E8B23202963B80088A3F0 /* KafkaNativeFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaNativeFooter.m; sourceTree = "<group>"; };
+		353E8B24202963B80088A3F0 /* KafkaReplicatorFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaReplicatorFooter.h; sourceTree = "<group>"; };
+		353E8B25202963B80088A3F0 /* KafkaReplicatorFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaReplicatorFooter.m; sourceTree = "<group>"; };
+		353E8B26202963B80088A3F0 /* KafkaRingIndicatorFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaRingIndicatorFooter.h; sourceTree = "<group>"; };
+		353E8B27202963B80088A3F0 /* KafkaRingIndicatorFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaRingIndicatorFooter.m; sourceTree = "<group>"; };
+		353E8B29202963B80088A3F0 /* KafkaArrowHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaArrowHeader.h; sourceTree = "<group>"; };
+		353E8B2A202963B80088A3F0 /* KafkaArrowHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaArrowHeader.m; sourceTree = "<group>"; };
+		353E8B2B202963B80088A3F0 /* KafkaNativeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaNativeHeader.h; sourceTree = "<group>"; };
+		353E8B2C202963B80088A3F0 /* KafkaNativeHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaNativeHeader.m; sourceTree = "<group>"; };
+		353E8B2D202963B80088A3F0 /* KafkaReplicatorHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaReplicatorHeader.h; sourceTree = "<group>"; };
+		353E8B2E202963B80088A3F0 /* KafkaReplicatorHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaReplicatorHeader.m; sourceTree = "<group>"; };
+		353E8B2F202963B80088A3F0 /* KafkaRingIndicatorHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaRingIndicatorHeader.h; sourceTree = "<group>"; };
+		353E8B30202963B80088A3F0 /* KafkaRingIndicatorHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaRingIndicatorHeader.m; sourceTree = "<group>"; };
+		353E8B32202963B80088A3F0 /* KafkaAnimatableProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaAnimatableProtocol.h; sourceTree = "<group>"; };
+		353E8B33202963B80088A3F0 /* KafkaArcLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaArcLayer.h; sourceTree = "<group>"; };
+		353E8B34202963B80088A3F0 /* KafkaArcLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaArcLayer.m; sourceTree = "<group>"; };
+		353E8B35202963B80088A3F0 /* KafkaReplicatorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KafkaReplicatorLayer.h; sourceTree = "<group>"; };
+		353E8B36202963B80088A3F0 /* KafkaReplicatorLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KafkaReplicatorLayer.m; sourceTree = "<group>"; };
+		353E8B4F202965F40088A3F0 /* PopOverHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		353E8B50202965F40088A3F0 /* PopOverHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopOverHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		353E8B51202965F40088A3F0 /* PopOverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverTableViewCell.swift; sourceTree = "<group>"; };
+		353E8B52202965F40088A3F0 /* PopOverTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopOverTableViewCell.xib; sourceTree = "<group>"; };
+		353E8B53202965F40088A3F0 /* PopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
+		353E8B59202966060088A3F0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		353E8B612029668B0088A3F0 /* MovieSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchViewController.swift; sourceTree = "<group>"; };
+		353E8B63202966970088A3F0 /* MovieSearchStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieSearchStoryboard.storyboard; sourceTree = "<group>"; };
+		353E8B6A202967920088A3F0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		353E8B6B202967920088A3F0 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		353E8B6E202968980088A3F0 /* MovieSearchContractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchContractor.swift; sourceTree = "<group>"; };
+		353E8B70202969430088A3F0 /* MovieSearchResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchResultModel.swift; sourceTree = "<group>"; };
+		353E8B7520296AE20088A3F0 /* MovieSearchInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSearchInteractor.swift; sourceTree = "<group>"; };
+		353E8B7720296BF10088A3F0 /* MovieSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchPresenter.swift; sourceTree = "<group>"; };
+		353E8B7920296C9D0088A3F0 /* MovieSearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchRouter.swift; sourceTree = "<group>"; };
+		353E8B7B20296EC90088A3F0 /* IndicatableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatableViewExtension.swift; sourceTree = "<group>"; };
+		353E8B7D202974CE0088A3F0 /* PopOverStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopOverStoryboard.storyboard; sourceTree = "<group>"; };
+		353E8B7F202976350088A3F0 /* MovieSearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		353E8B80202976350088A3F0 /* MovieSearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieSearchCollectionViewCell.xib; sourceTree = "<group>"; };
+		353E8B8D2029853A0088A3F0 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		353E8B8F202985440088A3F0 /* MovieDetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieDetailStoryboard.storyboard; sourceTree = "<group>"; };
+		353E8B91202985520088A3F0 /* MovieDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailRouter.swift; sourceTree = "<group>"; };
+		353E8B94202989090088A3F0 /* SlantedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlantedView.swift; sourceTree = "<group>"; };
+		353E8B9A2029A5FD0088A3F0 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		7812AE0A9F64846A293D7B28 /* Pods-HeadyAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyAssignmentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeadyAssignmentUITests/Pods-HeadyAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		839ECA9CF3D07564BC306F6D /* Pods_HeadyAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadyAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9438B5AB1A5AC04CDD83BE /* Pods-HeadyAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyAssignmentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeadyAssignmentTests/Pods-HeadyAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB30C4F8E0D2829EDC3F699A /* Pods-HeadyAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyAssignmentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeadyAssignmentUITests/Pods-HeadyAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C91C56383B22327C649EC7DD /* Pods_HeadyAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadyAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42B2EC01AACF2905E77FB77 /* Pods_HeadyAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3FE01CB7078965B148A46C /* Pods_HeadyAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5702E153FEA7066EB2E9378D /* Pods_HeadyAssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +223,8 @@
 				353E8A282029561F0088A3F0 /* HeadyAssignmentTests */,
 				353E8A332029561F0088A3F0 /* HeadyAssignmentUITests */,
 				353E8A122029561F0088A3F0 /* Products */,
+				E199BA1E2114577206952037 /* Pods */,
+				66C15BDB9F3BEAB2B7E3BA67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +241,17 @@
 		353E8A132029561F0088A3F0 /* HeadyAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				353E8A142029561F0088A3F0 /* AppDelegate.swift */,
-				353E8A162029561F0088A3F0 /* ViewController.swift */,
-				353E8A182029561F0088A3F0 /* Main.storyboard */,
-				353E8A1B2029561F0088A3F0 /* Assets.xcassets */,
-				353E8A1D2029561F0088A3F0 /* LaunchScreen.storyboard */,
+				353E8A8020295ACA0088A3F0 /* Application */,
+				353E8B69202967920088A3F0 /* Utilities */,
+				353E8A7420295ACA0088A3F0 /* Enums */,
+				353E8A4A20295ACA0088A3F0 /* Extensions */,
+				353E8A7A20295ACA0088A3F0 /* Models */,
+				353E8A4F20295ACA0088A3F0 /* Modules */,
+				353E8A7720295ACA0088A3F0 /* Network */,
+				353E8A4D20295ACA0088A3F0 /* Protocols */,
+				353E8A4220295AC90088A3F0 /* Resources */,
 				353E8A202029561F0088A3F0 /* Info.plist */,
+				353E8AFB202963AC0088A3F0 /* HeadyAssignment-Bridging-Header.h */,
 			);
 			path = HeadyAssignment;
 			sourceTree = "<group>";
@@ -125,6 +274,405 @@
 			path = HeadyAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		353E8A4220295AC90088A3F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B4C202965F40088A3F0 /* Custom Controls */,
+				353E8AAA202963560088A3F0 /* Third Party Controls */,
+				353E8A4320295AC90088A3F0 /* ActigageTest.xcdatamodeld */,
+				353E8A4520295AC90088A3F0 /* Assets.xcassets */,
+				353E8A4620295AC90088A3F0 /* LaunchScreen.storyboard */,
+				353E8A4820295AC90088A3F0 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		353E8A4A20295ACA0088A3F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B7B20296EC90088A3F0 /* IndicatableViewExtension.swift */,
+				353E8B59202966060088A3F0 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		353E8A4D20295ACA0088A3F0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				353E8A4E20295ACA0088A3F0 /* ViewProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		353E8A4F20295ACA0088A3F0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B83202984C90088A3F0 /* Movie Detail */,
+				353E8B5B202966280088A3F0 /* Movie Search */,
+				353E8A6C20295ACA0088A3F0 /* Root */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		353E8A6C20295ACA0088A3F0 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				353E8A6D20295ACA0088A3F0 /* Contractor */,
+				353E8A6F20295ACA0088A3F0 /* Router */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		353E8A6D20295ACA0088A3F0 /* Contractor */ = {
+			isa = PBXGroup;
+			children = (
+				353E8A6E20295ACA0088A3F0 /* RootContracter.swift */,
+			);
+			path = Contractor;
+			sourceTree = "<group>";
+		};
+		353E8A6F20295ACA0088A3F0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				353E8A7020295ACA0088A3F0 /* RootRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		353E8A7420295ACA0088A3F0 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				353E8A7620295ACA0088A3F0 /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		353E8A7720295ACA0088A3F0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				353E8A7820295ACA0088A3F0 /* Endpoints.swift */,
+				353E8A7920295ACA0088A3F0 /* MovieSearchAPIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		353E8A7A20295ACA0088A3F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B70202969430088A3F0 /* MovieSearchResultModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		353E8A8020295ACA0088A3F0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				353E8A8120295ACA0088A3F0 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		353E8AAA202963560088A3F0 /* Third Party Controls */ = {
+			isa = PBXGroup;
+			children = (
+				353E8AFF202963B80088A3F0 /* KafkaRefresh */,
+			);
+			path = "Third Party Controls";
+			sourceTree = "<group>";
+		};
+		353E8AFF202963B80088A3F0 /* KafkaRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B00202963B80088A3F0 /* Category */,
+				353E8B09202963B80088A3F0 /* Configuration */,
+				353E8B0C202963B80088A3F0 /* Core */,
+				353E8B16202963B80088A3F0 /* Default */,
+				353E8B19202963B80088A3F0 /* KafkaRefresh.h */,
+				353E8B1A202963B80088A3F0 /* Resource */,
+				353E8B1C202963B80088A3F0 /* Style */,
+				353E8B1E202963B80088A3F0 /* UIKit */,
+			);
+			path = KafkaRefresh;
+			sourceTree = "<group>";
+		};
+		353E8B00202963B80088A3F0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B01202963B80088A3F0 /* CALayer+KafkaLayout.h */,
+				353E8B02202963B80088A3F0 /* CALayer+KafkaLayout.m */,
+				353E8B03202963B80088A3F0 /* NSObject+KafkaAnimation.h */,
+				353E8B04202963B80088A3F0 /* NSObject+KafkaAnimation.m */,
+				353E8B05202963B80088A3F0 /* UIScrollView+KafkaLayout.h */,
+				353E8B06202963B80088A3F0 /* UIScrollView+KafkaLayout.m */,
+				353E8B07202963B80088A3F0 /* UIView+KafkaLayout.h */,
+				353E8B08202963B80088A3F0 /* UIView+KafkaLayout.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		353E8B09202963B80088A3F0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B0A202963B80088A3F0 /* UIScrollView+KafkaConfiguration.h */,
+				353E8B0B202963B80088A3F0 /* UIScrollView+KafkaConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		353E8B0C202963B80088A3F0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B0D202963B80088A3F0 /* KafkaFootRefreshControl.h */,
+				353E8B0E202963B80088A3F0 /* KafkaFootRefreshControl.m */,
+				353E8B0F202963B80088A3F0 /* KafkaHeadRefreshControl.h */,
+				353E8B10202963B80088A3F0 /* KafkaHeadRefreshControl.m */,
+				353E8B11202963B80088A3F0 /* KafkaRefreshControl.h */,
+				353E8B12202963B80088A3F0 /* KafkaRefreshControl.m */,
+				353E8B13202963B80088A3F0 /* KafkaRefreshProtocol.h */,
+				353E8B14202963B80088A3F0 /* UIScrollView+KafkaRefreshControl.h */,
+				353E8B15202963B80088A3F0 /* UIScrollView+KafkaRefreshControl.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		353E8B16202963B80088A3F0 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B17202963B80088A3F0 /* KafkaRefreshDefaults.h */,
+				353E8B18202963B80088A3F0 /* KafkaRefreshDefaults.m */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		353E8B1A202963B80088A3F0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B1B202963B80088A3F0 /* Image.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		353E8B1C202963B80088A3F0 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B1D202963B80088A3F0 /* KafkaRefreshStyle.h */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		353E8B1E202963B80088A3F0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B1F202963B80088A3F0 /* FootKit */,
+				353E8B28202963B80088A3F0 /* HeadKit */,
+				353E8B31202963B80088A3F0 /* LayerKit */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		353E8B1F202963B80088A3F0 /* FootKit */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B20202963B80088A3F0 /* KafkaArrowFooter.h */,
+				353E8B21202963B80088A3F0 /* KafkaArrowFooter.m */,
+				353E8B22202963B80088A3F0 /* KafkaNativeFooter.h */,
+				353E8B23202963B80088A3F0 /* KafkaNativeFooter.m */,
+				353E8B24202963B80088A3F0 /* KafkaReplicatorFooter.h */,
+				353E8B25202963B80088A3F0 /* KafkaReplicatorFooter.m */,
+				353E8B26202963B80088A3F0 /* KafkaRingIndicatorFooter.h */,
+				353E8B27202963B80088A3F0 /* KafkaRingIndicatorFooter.m */,
+			);
+			path = FootKit;
+			sourceTree = "<group>";
+		};
+		353E8B28202963B80088A3F0 /* HeadKit */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B29202963B80088A3F0 /* KafkaArrowHeader.h */,
+				353E8B2A202963B80088A3F0 /* KafkaArrowHeader.m */,
+				353E8B2B202963B80088A3F0 /* KafkaNativeHeader.h */,
+				353E8B2C202963B80088A3F0 /* KafkaNativeHeader.m */,
+				353E8B2D202963B80088A3F0 /* KafkaReplicatorHeader.h */,
+				353E8B2E202963B80088A3F0 /* KafkaReplicatorHeader.m */,
+				353E8B2F202963B80088A3F0 /* KafkaRingIndicatorHeader.h */,
+				353E8B30202963B80088A3F0 /* KafkaRingIndicatorHeader.m */,
+			);
+			path = HeadKit;
+			sourceTree = "<group>";
+		};
+		353E8B31202963B80088A3F0 /* LayerKit */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B32202963B80088A3F0 /* KafkaAnimatableProtocol.h */,
+				353E8B33202963B80088A3F0 /* KafkaArcLayer.h */,
+				353E8B34202963B80088A3F0 /* KafkaArcLayer.m */,
+				353E8B35202963B80088A3F0 /* KafkaReplicatorLayer.h */,
+				353E8B36202963B80088A3F0 /* KafkaReplicatorLayer.m */,
+			);
+			path = LayerKit;
+			sourceTree = "<group>";
+		};
+		353E8B4C202965F40088A3F0 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B992029A5FD0088A3F0 /* Shadow View */,
+				353E8B93202988FC0088A3F0 /* Slanted View */,
+				353E8B4D202965F40088A3F0 /* PopOver */,
+			);
+			name = "Custom Controls";
+			path = "HeadyAssignment/Resources/Custom Controls";
+			sourceTree = SOURCE_ROOT;
+		};
+		353E8B4D202965F40088A3F0 /* PopOver */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B4E202965F40088A3F0 /* PopOverCell */,
+				353E8B53202965F40088A3F0 /* PopOverViewController.swift */,
+				353E8B7D202974CE0088A3F0 /* PopOverStoryboard.storyboard */,
+			);
+			path = PopOver;
+			sourceTree = "<group>";
+		};
+		353E8B4E202965F40088A3F0 /* PopOverCell */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B4F202965F40088A3F0 /* PopOverHeaderTableViewCell.swift */,
+				353E8B50202965F40088A3F0 /* PopOverHeaderTableViewCell.xib */,
+				353E8B51202965F40088A3F0 /* PopOverTableViewCell.swift */,
+				353E8B52202965F40088A3F0 /* PopOverTableViewCell.xib */,
+			);
+			path = PopOverCell;
+			sourceTree = "<group>";
+		};
+		353E8B5B202966280088A3F0 /* Movie Search */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B5C202966280088A3F0 /* Contractor */,
+				353E8B7420296AE20088A3F0 /* Interactor */,
+				353E8B5E202966280088A3F0 /* Presenter */,
+				353E8B5F202966280088A3F0 /* Router */,
+				353E8B60202966280088A3F0 /* View */,
+			);
+			path = "Movie Search";
+			sourceTree = "<group>";
+		};
+		353E8B5C202966280088A3F0 /* Contractor */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B6E202968980088A3F0 /* MovieSearchContractor.swift */,
+			);
+			path = Contractor;
+			sourceTree = "<group>";
+		};
+		353E8B5E202966280088A3F0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B7720296BF10088A3F0 /* MovieSearchPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		353E8B5F202966280088A3F0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B7920296C9D0088A3F0 /* MovieSearchRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		353E8B60202966280088A3F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B612029668B0088A3F0 /* MovieSearchViewController.swift */,
+				353E8B63202966970088A3F0 /* MovieSearchStoryboard.storyboard */,
+				353E8B7F202976350088A3F0 /* MovieSearchCollectionViewCell.swift */,
+				353E8B80202976350088A3F0 /* MovieSearchCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		353E8B69202967920088A3F0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B6A202967920088A3F0 /* Constants.swift */,
+				353E8B6B202967920088A3F0 /* Utils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		353E8B7420296AE20088A3F0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B7520296AE20088A3F0 /* MovieSearchInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		353E8B83202984C90088A3F0 /* Movie Detail */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B86202984EF0088A3F0 /* Router */,
+				353E8B87202984EF0088A3F0 /* View */,
+			);
+			path = "Movie Detail";
+			sourceTree = "<group>";
+		};
+		353E8B86202984EF0088A3F0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B91202985520088A3F0 /* MovieDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		353E8B87202984EF0088A3F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B8D2029853A0088A3F0 /* MovieDetailViewController.swift */,
+				353E8B8F202985440088A3F0 /* MovieDetailStoryboard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		353E8B93202988FC0088A3F0 /* Slanted View */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B94202989090088A3F0 /* SlantedView.swift */,
+			);
+			path = "Slanted View";
+			sourceTree = "<group>";
+		};
+		353E8B992029A5FD0088A3F0 /* Shadow View */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B9A2029A5FD0088A3F0 /* ShadowView.swift */,
+			);
+			path = "Shadow View";
+			sourceTree = "<group>";
+		};
+		66C15BDB9F3BEAB2B7E3BA67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C91C56383B22327C649EC7DD /* Pods_HeadyAssignment.framework */,
+				34EF1BE163D87108FBF41D96 /* Pods_HeadyAssignmentTests.framework */,
+				839ECA9CF3D07564BC306F6D /* Pods_HeadyAssignmentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E199BA1E2114577206952037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29E58DCDAD698B9E53B0E792 /* Pods-HeadyAssignment.debug.xcconfig */,
+				139D1C90FC0C86AC2F87C9DA /* Pods-HeadyAssignment.release.xcconfig */,
+				8A9438B5AB1A5AC04CDD83BE /* Pods-HeadyAssignmentTests.debug.xcconfig */,
+				0CCE845B3CDCC1C3429DE686 /* Pods-HeadyAssignmentTests.release.xcconfig */,
+				BB30C4F8E0D2829EDC3F699A /* Pods-HeadyAssignmentUITests.debug.xcconfig */,
+				7812AE0A9F64846A293D7B28 /* Pods-HeadyAssignmentUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +680,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353E8A392029561F0088A3F0 /* Build configuration list for PBXNativeTarget "HeadyAssignment" */;
 			buildPhases = (
+				630D52B9F836A7F7446891D3 /* [CP] Check Pods Manifest.lock */,
 				353E8A0D2029561F0088A3F0 /* Sources */,
 				353E8A0E2029561F0088A3F0 /* Frameworks */,
 				353E8A0F2029561F0088A3F0 /* Resources */,
+				13D292128540351A1FD8F216 /* [CP] Embed Pods Frameworks */,
+				8079882915B5407F3331E472 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +700,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353E8A3C2029561F0088A3F0 /* Build configuration list for PBXNativeTarget "HeadyAssignmentTests" */;
 			buildPhases = (
+				568915E69FCFB110CF82A4BB /* [CP] Check Pods Manifest.lock */,
 				353E8A212029561F0088A3F0 /* Sources */,
 				353E8A222029561F0088A3F0 /* Frameworks */,
 				353E8A232029561F0088A3F0 /* Resources */,
+				5F344732F54493FE906DDA04 /* [CP] Embed Pods Frameworks */,
+				B8F531DCA251A41A1F2C9B72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +721,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353E8A3F2029561F0088A3F0 /* Build configuration list for PBXNativeTarget "HeadyAssignmentUITests" */;
 			buildPhases = (
+				0F23B4C6DB97189080910E53 /* [CP] Check Pods Manifest.lock */,
 				353E8A2C2029561F0088A3F0 /* Sources */,
 				353E8A2D2029561F0088A3F0 /* Frameworks */,
 				353E8A2E2029561F0088A3F0 /* Resources */,
+				50A971A993B7EE1DEABEE22F /* [CP] Embed Pods Frameworks */,
+				A66DE936C7D54D96CE78F803 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +750,7 @@
 				TargetAttributes = {
 					353E8A102029561F0088A3F0 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					353E8A242029561F0088A3F0 = {
@@ -232,9 +790,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				353E8A1F2029561F0088A3F0 /* LaunchScreen.storyboard in Resources */,
-				353E8A1C2029561F0088A3F0 /* Assets.xcassets in Resources */,
-				353E8A1A2029561F0088A3F0 /* Main.storyboard in Resources */,
+				353E8B90202985440088A3F0 /* MovieDetailStoryboard.storyboard in Resources */,
+				353E8B41202963B90088A3F0 /* Image.bundle in Resources */,
+				353E8A8720295ACA0088A3F0 /* Main.storyboard in Resources */,
+				353E8B55202965F40088A3F0 /* PopOverHeaderTableViewCell.xib in Resources */,
+				353E8A8520295ACA0088A3F0 /* Assets.xcassets in Resources */,
+				353E8B64202966970088A3F0 /* MovieSearchStoryboard.storyboard in Resources */,
+				353E8B57202965F40088A3F0 /* PopOverTableViewCell.xib in Resources */,
+				353E8A8620295ACA0088A3F0 /* LaunchScreen.storyboard in Resources */,
+				353E8B7E202974CE0088A3F0 /* PopOverStoryboard.storyboard in Resources */,
+				353E8B82202976350088A3F0 /* MovieSearchCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +819,215 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F23B4C6DB97189080910E53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeadyAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13D292128540351A1FD8F216 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HeadyAssignment/Pods-HeadyAssignment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadyAssignment/Pods-HeadyAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50A971A993B7EE1DEABEE22F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadyAssignmentUITests/Pods-HeadyAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		568915E69FCFB110CF82A4BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeadyAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F344732F54493FE906DDA04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadyAssignmentTests/Pods-HeadyAssignmentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		630D52B9F836A7F7446891D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeadyAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8079882915B5407F3331E472 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadyAssignment/Pods-HeadyAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A66DE936C7D54D96CE78F803 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadyAssignmentUITests/Pods-HeadyAssignmentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F531DCA251A41A1F2C9B72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadyAssignmentTests/Pods-HeadyAssignmentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		353E8A0D2029561F0088A3F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				353E8A172029561F0088A3F0 /* ViewController.swift in Sources */,
-				353E8A152029561F0088A3F0 /* AppDelegate.swift in Sources */,
+				353E8B42202963B90088A3F0 /* KafkaArrowFooter.m in Sources */,
+				353E8B3C202963B90088A3F0 /* KafkaFootRefreshControl.m in Sources */,
+				353E8B58202965F40088A3F0 /* PopOverViewController.swift in Sources */,
+				353E8B37202963B90088A3F0 /* CALayer+KafkaLayout.m in Sources */,
+				353E8A8420295ACA0088A3F0 /* ActigageTest.xcdatamodeld in Sources */,
+				353E8B3B202963B90088A3F0 /* UIScrollView+KafkaConfiguration.m in Sources */,
+				353E8AA020295ACA0088A3F0 /* Enums.swift in Sources */,
+				353E8B54202965F40088A3F0 /* PopOverHeaderTableViewCell.swift in Sources */,
+				353E8B47202963B90088A3F0 /* KafkaNativeHeader.m in Sources */,
+				353E8B95202989090088A3F0 /* SlantedView.swift in Sources */,
+				353E8AA820295ACA0088A3F0 /* AppDelegate.swift in Sources */,
+				353E8B56202965F40088A3F0 /* PopOverTableViewCell.swift in Sources */,
+				353E8B4A202963B90088A3F0 /* KafkaArcLayer.m in Sources */,
+				353E8B6D202967930088A3F0 /* Utils.swift in Sources */,
+				353E8A9C20295ACA0088A3F0 /* RootRouter.swift in Sources */,
+				353E8B48202963B90088A3F0 /* KafkaReplicatorHeader.m in Sources */,
+				353E8B39202963B90088A3F0 /* UIScrollView+KafkaLayout.m in Sources */,
+				353E8B4B202963B90088A3F0 /* KafkaReplicatorLayer.m in Sources */,
+				353E8B7620296AE20088A3F0 /* MovieSearchInteractor.swift in Sources */,
+				353E8B7820296BF10088A3F0 /* MovieSearchPresenter.swift in Sources */,
+				353E8B3A202963B90088A3F0 /* UIView+KafkaLayout.m in Sources */,
+				353E8B46202963B90088A3F0 /* KafkaArrowHeader.m in Sources */,
+				353E8AA120295ACA0088A3F0 /* Endpoints.swift in Sources */,
+				353E8B5A202966070088A3F0 /* Extensions.swift in Sources */,
+				353E8B3D202963B90088A3F0 /* KafkaHeadRefreshControl.m in Sources */,
+				353E8B49202963B90088A3F0 /* KafkaRingIndicatorHeader.m in Sources */,
+				353E8B44202963B90088A3F0 /* KafkaReplicatorFooter.m in Sources */,
+				353E8AA220295ACA0088A3F0 /* MovieSearchAPIService.swift in Sources */,
+				353E8B38202963B90088A3F0 /* NSObject+KafkaAnimation.m in Sources */,
+				353E8B71202969430088A3F0 /* MovieSearchResultModel.swift in Sources */,
+				353E8B3E202963B90088A3F0 /* KafkaRefreshControl.m in Sources */,
+				353E8B92202985520088A3F0 /* MovieDetailRouter.swift in Sources */,
+				353E8B7C20296EC90088A3F0 /* IndicatableViewExtension.swift in Sources */,
+				353E8B81202976350088A3F0 /* MovieSearchCollectionViewCell.swift in Sources */,
+				353E8B45202963B90088A3F0 /* KafkaRingIndicatorFooter.m in Sources */,
+				353E8B6F202968980088A3F0 /* MovieSearchContractor.swift in Sources */,
+				353E8B9B2029A5FE0088A3F0 /* ShadowView.swift in Sources */,
+				353E8B40202963B90088A3F0 /* KafkaRefreshDefaults.m in Sources */,
+				353E8B43202963B90088A3F0 /* KafkaNativeFooter.m in Sources */,
+				353E8A8A20295ACA0088A3F0 /* ViewProtocols.swift in Sources */,
+				353E8B8E2029853A0088A3F0 /* MovieDetailViewController.swift in Sources */,
+				353E8B3F202963B90088A3F0 /* UIScrollView+KafkaRefreshControl.m in Sources */,
+				353E8A9B20295ACA0088A3F0 /* RootContracter.swift in Sources */,
+				353E8B622029668B0088A3F0 /* MovieSearchViewController.swift in Sources */,
+				353E8B7A20296C9D0088A3F0 /* MovieSearchRouter.swift in Sources */,
+				353E8B6C202967930088A3F0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +1063,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		353E8A182029561F0088A3F0 /* Main.storyboard */ = {
+		353E8A4620295AC90088A3F0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				353E8A192029561F0088A3F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		353E8A1D2029561F0088A3F0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				353E8A1E2029561F0088A3F0 /* Base */,
+				353E8A4720295AC90088A3F0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		353E8A4820295AC90088A3F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353E8A4920295AC90088A3F0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -424,13 +1191,18 @@
 		};
 		353E8A3A2029561F0088A3F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E58DCDAD698B9E53B0E792 /* Pods-HeadyAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZHS5SJQ59;
 				INFOPLIST_FILE = HeadyAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = durgeshPandey.HeadyAssignment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.astro.hotspot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeadyAssignment/HeadyAssignment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +1210,17 @@
 		};
 		353E8A3B2029561F0088A3F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139D1C90FC0C86AC2F87C9DA /* Pods-HeadyAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZHS5SJQ59;
 				INFOPLIST_FILE = HeadyAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = durgeshPandey.HeadyAssignment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.astro.hotspot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeadyAssignment/HeadyAssignment-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +1228,7 @@
 		};
 		353E8A3D2029561F0088A3F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A9438B5AB1A5AC04CDD83BE /* Pods-HeadyAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +1245,7 @@
 		};
 		353E8A3E2029561F0088A3F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CCE845B3CDCC1C3429DE686 /* Pods-HeadyAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +1262,7 @@
 		};
 		353E8A402029561F0088A3F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB30C4F8E0D2829EDC3F699A /* Pods-HeadyAssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +1278,7 @@
 		};
 		353E8A412029561F0088A3F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7812AE0A9F64846A293D7B28 /* Pods-HeadyAssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +1332,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		353E8A4320295AC90088A3F0 /* ActigageTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				353E8A4420295AC90088A3F0 /* ActigageTest.xcdatamodel */,
+			);
+			currentVersion = 353E8A4420295AC90088A3F0 /* ActigageTest.xcdatamodel */;
+			path = ActigageTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 353E8A092029561F0088A3F0 /* Project object */;
 }

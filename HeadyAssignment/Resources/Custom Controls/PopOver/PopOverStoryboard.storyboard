@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pop Over View Controller-->
+        <scene sceneID="1ig-iy-Q2f">
+            <objects>
+                <viewController storyboardIdentifier="PopOverViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="N8v-pM-FlQ" customClass="PopOverViewController" customModule="WalmartLabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gjc-F2-t7i">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ECh-7f-AaT">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="N8v-pM-FlQ" id="Fk3-a0-EVd"/>
+                                    <outlet property="delegate" destination="N8v-pM-FlQ" id="dBK-Hc-b48"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ECh-7f-AaT" firstAttribute="leading" secondItem="xe7-xq-hOh" secondAttribute="leading" id="4Ib-yC-5yZ"/>
+                            <constraint firstItem="xe7-xq-hOh" firstAttribute="bottom" secondItem="ECh-7f-AaT" secondAttribute="bottom" id="LsE-5Q-LNb"/>
+                            <constraint firstItem="ECh-7f-AaT" firstAttribute="top" secondItem="xe7-xq-hOh" secondAttribute="top" id="Pgl-Hh-54P"/>
+                            <constraint firstAttribute="trailing" secondItem="ECh-7f-AaT" secondAttribute="trailing" id="gWE-1k-8RJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xe7-xq-hOh"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewPopOver" destination="ECh-7f-AaT" id="iQW-IF-QJL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FHd-Mt-BEE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="817"/>
+        </scene>
+    </scenes>
+</document>
