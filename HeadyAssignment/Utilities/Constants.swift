@@ -27,7 +27,7 @@ var movieDetailStoryBoard: UIStoryboard {
 
 // MARK: - HardCoded Sort order Array
 // MARK: -
-var sortOrderArray = ["Popularity", "Release Date"]
+var sortOrderArray = ["Popularity", "Rating", "Release Date"]
 
 
 

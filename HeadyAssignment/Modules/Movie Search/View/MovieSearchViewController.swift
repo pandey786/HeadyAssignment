@@ -207,6 +207,13 @@ extension MovieSearchViewController: PopOverDelegate {
                 return firstMovieObj.popularity ?? 0.0 > secondMovieObj.popularity ?? 0.0
             })
             
+        } else if sortOrder == "Rating" {
+            
+            //Sort Array Based On Rating
+            self.movieSearchResults.sort(by: { (firstMovieObj, secondMovieObj) -> Bool in
+                return firstMovieObj.vote_average ?? 0 > secondMovieObj.vote_average ?? 0
+            })
+            
         } else if sortOrder == "Release Date" {
             
             //Sort Array Based On Release Date
